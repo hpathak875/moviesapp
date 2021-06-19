@@ -1,0 +1,41 @@
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 70%;
+    width: 20%;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.search-btn {}
+
+.search-btn input {
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.header-links {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-link {
+    border: white;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #DB202C;
+}
