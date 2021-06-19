@@ -18,8 +18,6 @@ class App extends Component {
   };
 
   async componentDidMount() {
-    // API call
-    // params => api key , page , query
     // https://api.themoviedb.org/3/search/movie?api_key=bdd243ea847239dc0799805e63e189f0&query=avengers&page=1&include_adult=false
 
     let data = await axios.get(API_URL + "/search/movie", {
